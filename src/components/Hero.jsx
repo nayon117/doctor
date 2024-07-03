@@ -7,7 +7,7 @@ const Hero = () => {
           alt="Hero Image"
           className="w-full h-auto"
         />
-        <div className="absolute inset-0 bg-gradient-to-b from-[#00C19D] to-[#020043] opacity-20"></div>
+        <div className="absolute inset-0 bg-gradient-to-b from-[#00C19D] to-[#020043] opacity-20 rounded-full"></div>
       </div>
       <div className="container mx-auto px-4 pt-16 text-center">
         <h2 className="text-2xl md:text-3xl lg:text-4xl font-semibold lg:-mb-16">

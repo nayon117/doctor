@@ -1,3 +1,4 @@
+import Appoinment from "../../components/Appoinment";
 import Faq from "../../components/Faq";
 import Hero from "../../components/Hero";
 import Mission from "../../components/Mission";
@@ -12,6 +13,7 @@ const Home = () => {
                <Service/>
                <Testimonial/>
                <Faq/>
+               <Appoinment/>
         </section>
     )
 }

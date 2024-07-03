@@ -2,7 +2,7 @@ const Mission = () => {
   return (
     <div className="flex flex-col md:flex-row items-center justify-between mt-16 gap-4">
       <div className="flex-1 space-y-5">
-        <button className="btn bg-white text-black hover:bg-black hover:text-white rounded-full">
+        <button className="btn btn-xs bg-white text-black hover:bg-black hover:text-white rounded-full">
           Who we are
         </button>
         <h1 className="text-xl md:text-2xl lg:text-3xl font-semibold lg:w-[470px]">

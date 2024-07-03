@@ -1,8 +1,9 @@
+import Hero from "../../components/Hero";
 
 const Home = () => {
     return (
         <section className=''>
-                Welcome to Home
+               <Hero/>
         </section>
     )
 }

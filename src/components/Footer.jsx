@@ -5,7 +5,7 @@ import { FaYoutube } from "react-icons/fa";
 const Footer = () => {
   return (
     <section className="bg-[#020043] text-white py-10 ">
-      <footer className="footer lg:ml-24  p-10">
+      <footer className="max-w-screen-xl mx-auto footer  p-10  lg:p-16">
 
         {/*logo & contact part  */}
         <div className="flex flex-col ">

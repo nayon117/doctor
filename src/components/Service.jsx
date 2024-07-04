@@ -1,3 +1,5 @@
+import { MdArrowOutward } from "react-icons/md";
+
 const Service = () => {
   return (
     <div>
@@ -16,6 +18,7 @@ const Service = () => {
           </p>
           <button className="btn bg-[#FFC637] text-black hover:bg-black hover:text-white outline-none border-none">
             Appointment
+            <MdArrowOutward />
           </button>
         </div>
         <div className="flex-1">

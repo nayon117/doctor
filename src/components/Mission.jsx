@@ -1,3 +1,5 @@
+import { MdArrowOutward } from "react-icons/md";
+
 const Mission = () => {
   return (
     <div className="flex flex-col md:flex-row items-center justify-between mt-16 gap-4">
@@ -18,6 +20,7 @@ const Mission = () => {
         </p>
         <button className="btn bg-[#FFC637] text-black hover:bg-black hover:text-white outline-none border-none">
           Learn More
+          <MdArrowOutward />
         </button>
       </div>
       <div className="flex-1">

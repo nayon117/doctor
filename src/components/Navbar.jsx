@@ -1,4 +1,5 @@
 import { IoMenuOutline } from "react-icons/io5";
+import { MdArrowOutward } from "react-icons/md";
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
@@ -43,6 +44,8 @@ const Navbar = () => {
       <div className="navbar-end">
         <a className="btn bg-white text-black hover:bg-black hover:text-white">
           Appoinment
+          <MdArrowOutward />
+
         </a>
       </div>
     </div>

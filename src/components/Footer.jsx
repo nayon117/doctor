@@ -9,7 +9,7 @@ const Footer = () => {
 
         {/*logo & contact part  */}
         <div className="flex flex-col ">
-          <img src="../../public/images/logo light.png" alt="" />
+          <img src="/images/logo light.png" alt="site logo" />
           <div className="mt-4">
             <h3>123 Main Street Anytown, USA </h3>
             <p>Postal Code: 12345</p>

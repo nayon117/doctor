@@ -1,4 +1,6 @@
 import { useState } from "react";
+
+// accordion data
 const accordionsData = [
   {
     title: " What are your office hours? ? ",
@@ -21,8 +23,13 @@ const accordionsData = [
       "Yes, we offer telemedicine appointments for certain conditions and follow-ups. Telemedicine allows you to consult with our healthcare providers from the comfort of your home. Please contact our office to see if your needs can be met through a telemedicine visit.",
   },
 ];
+
+
 const Faq = () => {
+
   const [accordionOpen, setAccordionOpen] = useState(null);
+
+  // toggle accordion
   const handleToogle = (i) => {
     setAccordionOpen((prevI) => (prevI === i ? null : i));
   };
@@ -37,6 +44,8 @@ const Faq = () => {
           Frequntly Asked Question
         </h2>
       </div>
+
+      {/* accordion */}
       <div className="space-y-4">
         {accordionsData?.map((accordion, i) => (
           <div

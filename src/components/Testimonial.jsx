@@ -1,14 +1,20 @@
 const Testimonial = () => {
   return (
-    <section className="bg-gray-50 py-12">
+    <section className="bg-gray-50 mt-16 py-10">
       <div className="container mx-auto px-4">
+
+         {/*btn & title */}
         <button className="btn btn-xs bg-white text-black hover:bg-black hover:text-white rounded-full">
           Testimonial
         </button>
         <h2 className="text-xl md:text-2xl lg:text-3xl font-semibold mt-6 mb-6 ">
           What they say about us
         </h2>
+
+        {/* grid items testimonial */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+          {/* 1st testimonial */}
           <div className="p-4 bg-[#FFFFF5] shadow-lg rounded-lg">
             <h3 className="text-xl font-bold">
               Expertise and Compassion Combined
@@ -33,6 +39,8 @@ const Testimonial = () => {
               </div>
             </div>
           </div>
+
+          {/* 2nd testimonial */}
           <div className="p-4 bg-[#FFFFF5] shadow-lg rounded-lg">
             <h3 className="text-xl font-bold">
               Life-Saving Care, Life-Changing Experience
@@ -57,6 +65,8 @@ const Testimonial = () => {
               </div>
             </div>
           </div>
+
+          {/* 3rd testimonial */}
           <div className="p-4 bg-[#FFFFF5] shadow-lg rounded-lg">
             <h3 className="text-xl font-bold">
               A Partner in Health and Wellness
@@ -84,6 +94,7 @@ const Testimonial = () => {
           </div>
         </div>
 
+        {/* pagination */}
         <div className="flex items-center justify-center text-center space-x-2 mt-8 ">
           <div className="w-3 h-3 bg-gray-200 rounded-full"></div>
           <div className="w-3 h-3 bg-yellow-400 rounded-full"></div>
